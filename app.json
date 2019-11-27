@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b2e33",
+    "navigationBarTitleText": "云智慧-线上平台",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#74777e",
+    "selectedColor": "#f06000",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/bottomPanel/zx.png",
+        "selectedIconPath": "image/bottomPanel/zxselect.png",
+        "text": "一点心资讯"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/bottomPanel/xj.png",
+        "selectedIconPath": "image/bottomPanel/xjselect.png",
+        "text": "禅易心境"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/bottomPanel/jyz.png",
+        "selectedIconPath": "image/bottomPanel/jyzselect.png",
+        "text": "心易加油站"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/bottomPanel/sd.png",
+        "selectedIconPath": "image/bottomPanel/sdselect.png",
+        "text": "心易云树洞"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
